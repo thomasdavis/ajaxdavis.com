@@ -7,7 +7,51 @@ h1,h2,h3,h4,h5,h6 {
 body {
   overflow-y: scroll;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 30px 0px;
+  line-height: 26px;
+}
+h1 {
+  margin: 0;
+  color: #FCFFF5;
+  padding: 0;
+}
+h3 {
+  margin-top: 60px;
+}
+.header {
+  background: #284907;
+  color: #fff;
+  padding: 20px 0;
+}
+.menu {
+  background: #284907;
+  text-transform: uppercase;
+
+}
+a {
+    color: #363942;
+  text-decoration: none;
+  font-weight: 600;
+}
+.menu a {
+  color: #FCFFF5;
+  font-family: 'Asul', sans-serif;
+  text-decoration: none;
+  margin-right: 20px;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 20px 0;
+  font-weight: 500;
+}
+.wrap {
+  width: 700px;
+  margin: auto;
 }
 .container {
   width: 1080px;
